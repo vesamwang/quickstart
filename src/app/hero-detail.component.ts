@@ -12,8 +12,8 @@ import { Hero } from './hero';
 @Component({
   moduleId: module.id,
   selector: 'my-hero-detail',
-  templateUrl: './hero-detail.component.html',
-  styleUrls: ['./hero-detail.component.css']
+  templateUrl: 'hero-detail.component.html',
+  styleUrls: ['hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit{
   @Input()
